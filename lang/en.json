@@ -1,0 +1,101 @@
+{
+  "pages": {
+    "login": {
+      "forgot_password": "Forgot password"
+    },
+    "cockpit": {
+      "greeting": "Hello, {name}"
+    }
+  },
+  "doctypes": {
+    "supplier": "{form, select, plural {Suppliers} other {Supplier}}",
+    "purchase_order": "{form, select, plural {Purchase Orders} other {Purchase Order}}",
+    "purchase_receipt": "{form, select, plural {Purchase Receipts} other {Purchase Receipt}}",
+    "purchase_invoice": "{form, select, plural {Purchase Invoices} other {Purchase Invoice}}",
+    "customer": "{form, select, plural {Customers} other {Customer}}",
+    "sales_order": "{form, select, plural {Sales Orders} other {Sales Order}}",
+    "delivery_note": "{form, select, plural {Delivery Notes} other {Delivery Note}}",
+    "sales_invoice": "{form, select, plural {Sales Invoices} other {Sales Invoice}}",
+    "item": "{form, select, plural {Items} other {Item}}",
+    "item_group": "{form, select, plural {Item Groups} other {Item Group}}",
+    "warehouse": "{form, select, plural {Warehouses} other {Warehouse}}",
+    "fields": {
+      "supplier": {
+        "name": "{form, select, plural {References} other {Reference}}",
+        "supplier_name": "{form, select, plural {Names} other {Name}}",
+        "supplier_type": "{form, select, plural {Supplier Types} other {Supplier Type}}",
+        "supplier_group": "{form, select, plural {Supplier Groups} other {Supplier Group}}",
+        "vat_status": "{form, select, plural {VAT Statuses} other {VAT Status}}",
+        "tax_id": "{form, select, plural {VAT Numbers} other {VAT Number}}",
+        "tax_category": "{form, select, plural {VAT Categories} other {VAT Category}}",
+        "default_price_list": "{form, select, plural {Price Lists} other {Price List}}",
+        "payment_terms": "{form, select, plural {Payment Terms} other {Payment Terms}}",
+        "status": "{form, select, plural {Statuses} other {Status}}"
+      }
+    }
+  },
+  "reports": {
+    "stock_balance": "Stock Balance"
+  },
+  "words": {
+    "username": "Username",
+    "password": "Password",
+    "enter": "Enter",
+    "login": "Login",
+    "logout": "Logout",
+    "search": "Search",
+    "buying": "Buying",
+    "selling": "Selling",
+    "stock": "Stock",
+    "connectors": "Connectors",
+    "new": "New",
+    "error": "Error",
+    "sorry": "Sorry",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "unselect_all": "Unselect All",
+    "first_page": "First page",
+    "previous_page": "Previous page",
+    "next_page": "Next page",
+    "last_page": "Last page",
+    "showing": "Showing",
+    "of": "of",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "loading": "Loading",
+    "general": "General",
+    "tax": "Tax",
+    "commercial": "Commercial",
+    "company": "Company",
+    "individual": "Individual",
+    "liable": "Liable",
+    "nonliable": "Non liable",
+    "exempt": "Exempt",
+    "modified": "Modified"
+  },
+  "phrases": {
+    "loading_data": "Loading data",
+    "rows_count_selected": "{selected} of {total} rows selected"
+  },
+  "errors": {
+    "404": {
+      "title": "Page not found",
+      "description": "The page you are looking for was not found. Please check the address."
+    },
+    "417": {
+      "title": "Expectations failed",
+      "description": "There is an error in the parameters we sent to the remote service."
+    },
+    "1000": {
+      "title": "Service unreachable",
+      "description": "We did not receive a response from the remote service."
+    },
+    "1001": {
+      "title": "Request failed",
+      "description": "The request to the remote service could not be sent."
+    }
+  }
+}

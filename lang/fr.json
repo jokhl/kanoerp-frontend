@@ -1,0 +1,20 @@
+{
+  "pages": {
+    "login": {
+      "forgot_password": "Forgot password"
+    },
+    "cockpit": {
+      "greeting": "Bonjour, {name}"
+    }
+  },
+  "words": {
+    "username": "Username",
+    "password": "Password",
+    "enter": "Enter",
+    "login": "Login",
+    "supplier": "{form, select, plural {Suppliers} other {Supplier}}",
+    "purchase_order": "{form, select, plural {Purchase Orders} other {Purchase Order}}",
+    "purchase_receipt": "{form, select, plural {Purchase Receipts} other {Purchase Receipt}}",
+    "purchase_invoice": "{form, select, plural {Purchase Invoices} other {Purchase Invoice}}"
+  }
+}

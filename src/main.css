@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-bp-dark-gray-900;
+}
+
+#root {
+  @apply flex flex-col w-screen h-screen;
+}
+
+.siteNav-item.bp3-popover2-open {
+  @apply bg-slate-500;
+}
+
+/* Blueprintjs Tab styles overrides */
+
+.bp3-tab-list {
+  > :not(:last-child) {
+    @apply m-0 !important;
+  }
+}
+
+.bp3-tab {
+  @apply px-3 border-t border-l border-slate-300;
+  @apply text-slate-600 !important;
+  box-shadow: 0 1px 0 0 theme('colors.slate.50') inset, 0 1px 1px 0 theme('colors.slate.400');
+
+  &:last-child {
+    @apply border-r;
+  }
+
+  &[aria-expanded='true'] {
+    @apply bg-white border-t-2 border-t-bp-blue-600 !important;
+    box-shadow: 1px 1px 0 0 #ffffff !important;
+  }
+
+  &[aria-expanded='false'] {
+    @apply bg-gradient-to-t from-slate-200 to-slate-100;
+  }
+}
+
+.bp3-tab-panel {
+  @apply m-0;
+}
+
+/* Blueprintjs Suggest styles overrides */
+
+.bp3-popover-wrapper > * {
+  @apply w-full;
+}
